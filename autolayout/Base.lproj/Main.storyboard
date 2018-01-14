@@ -19,9 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="MpR-U4-eQq">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic" translatesAutoresizingMaskIntoConstraints="NO" id="MpR-U4-eQq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JR7-Jb-oba">
                                 <rect key="frame" x="0.0" y="500.5" width="375" height="166.5"/>
@@ -55,8 +54,12 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JR7-Jb-oba" secondAttribute="bottom" id="8MZ-qx-PEo"/>
                             <constraint firstItem="JR7-Jb-oba" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xcb-1C-gik"/>
+                            <constraint firstItem="MpR-U4-eQq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y41-7D-Kht"/>
                             <constraint firstItem="JR7-Jb-oba" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="ZnE-ft-9tE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JR7-Jb-oba" secondAttribute="trailing" id="aJf-4g-WC7"/>
+                            <constraint firstAttribute="trailing" secondItem="MpR-U4-eQq" secondAttribute="trailing" id="bSc-gm-Tsx"/>
+                            <constraint firstItem="MpR-U4-eQq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="biI-BM-8zH"/>
+                            <constraint firstAttribute="bottom" secondItem="MpR-U4-eQq" secondAttribute="bottom" id="gxZ-On-bd9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
